@@ -1,7 +1,7 @@
 #pragma once
 
-const int FORMAT_RGB888 = 0;
-const int FORMAT_GRAY = 1;
+//本来想用自定的数据结构，后来改用cv::Mat
+//这个暂时没用
 
 struct Color {
 public:
